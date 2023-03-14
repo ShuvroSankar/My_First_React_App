@@ -3,13 +3,7 @@ import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 const API_URL = ' http://www.omdbapi.com/?i=tt3896198&apikey=e021cdd8'
-const movie1 = {
-    'Poster': "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "Title": "Batman v Superman: Dawn of Justice",
-    "Type"  :"movie",
-    "Year":"2016",
-    "imdbID":"tt2975590"
-}
+
 
 const App = () => {
     const [movies,setmovies] = useState([]);
